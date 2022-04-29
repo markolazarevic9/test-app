@@ -1,0 +1,10 @@
+textarea {
+    width: 50%;
+    height: 150px;
+    min-height: 150px;
+    margin: 5px auto;
+    padding: 8px;
+    max-height: 400px;
+    max-width: 50%;
+    display: block;
+  }

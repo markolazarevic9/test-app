@@ -1,0 +1,32 @@
+.editArticle {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .editArticle h3 {
+    margin: 5px;
+    background-color: #0072e1;
+    color: white;
+    padding: 8px;
+  
+  }
+  
+  /* .editArticle textarea {
+    width: 50%;
+    height: 150px;
+    margin: 5px;
+    padding: 8px;
+    max-height: 400px;
+    max-width: 50%;
+  }
+   */
+  /* .editArticle button {
+    position: relative;
+    padding: 8px;
+    background-color: #0072e1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+  } */

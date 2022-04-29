@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home"
+import AboutUs  from "./pages/AboutsUs"
+import Contact from "./pages/Contact"
+import NotFound from "./pages/NotFound";
+import ArticleView from "./pages/ArticleView";
+import { useState } from "react";
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 
-function App() {
+
+export default function App() {
+  const [articles, setArticles] = useState([]);
+  const [articleContent, setArticleContent] = useState("");
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            element={
+                      <Home
+                        articles={articles}
+                        setArticles={setArticles}
+                        setArticleContent={setArticleContent}
+                        articleContent={articleContent}
+                     />}
+             path="/" exact
+          />
+          <Route element={<AboutUs />} path="/about-us" exact />
+          <Route element={<Contact />} path="/contact" exact />
+          <Route element={<ArticleView />} path="/article/:id" exact />
+          <Route element={<NotFound />} path="*" />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
-
-export default App;

@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* height:100px; */
+    height:10%;
+    background-color: #0072e1;
+    color: #fff;
+  }
+  
+  .logo {
+    align-self: flex-start;
+    position: relative;
+    top: 3px;
+    height: 100px;
+  }
+  
+  .menu {
+    padding: 10px;
+    align-self: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+   
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .menu li a:hover {
+    color:#0072e1 ;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+  
+  .activePage {
+    color:#0072e1 ;
+    background-color: #fff;
+  }

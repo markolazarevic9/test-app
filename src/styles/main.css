@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    min-height: 590px;
+    margin: 10px auto;
+  }
+  
+  .container h1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+  }
+  
+  .container p {
+    line-height: 25px;
+    font-size: 18px;
+    clear: both;
+  }
+  
+  

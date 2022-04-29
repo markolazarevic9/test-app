@@ -1,0 +1,15 @@
+.formWrapper , .displayContainer {
+    height: 570px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.displayContainer h3 {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.formWrapper h1 {
+    padding: 10px;
+}
