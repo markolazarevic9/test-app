@@ -14,8 +14,6 @@ export default function ArticleList(props) {
                  articleDate = {article.date}
                  articleId = {article.id}
                  handleView = {props.handleView}
-                 handleDelete = {props.handleDelete}
-                 handleEdit = {props.handleEdit}
                  />
             ))}
         </div>
