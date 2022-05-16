@@ -1,7 +1,7 @@
 <h1>My first react app</h1>
 
 This project is implemented to show my learned skills in React after passing the course organised by one company. <br>
-Here I used some basic hooks and packages like: UseState, UseEffect, React Router, UseParams, UseLocation, SweetAlert etc.
+Here I used some hooks and packages like: UseState, UseEffect, React Router, UseParams, UseLocation, useContext, JSON-server, SweetAlert etc.
 
 The Test-app can do CRUD operations with articles.
 User can create article, update article content, delete article and user can see full view of an article.
